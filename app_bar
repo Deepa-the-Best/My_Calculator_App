@@ -1,0 +1,9 @@
+// Generated code for this AppBar Widget...
+AppBar(
+  backgroundColor: FlutterFlowTheme.of(context).primaryText,
+  automaticallyImplyLeading: false,
+  actions: [],
+  centerTitle: false,
+  toolbarHeight: 1,
+  elevation: 2,
+)

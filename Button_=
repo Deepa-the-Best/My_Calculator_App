@@ -1,0 +1,24 @@
+// Generated code for this Button Widget...
+Align(
+  alignment: AlignmentDirectional(-3.9, -10.6),
+  child: FFButtonWidget(
+    onPressed: () {
+      print('Button pressed ...');
+    },
+    text: '=',
+    options: FFButtonOptions(
+      width: 80,
+      height: 80,
+      padding: EdgeInsetsDirectional.fromSTEB(16, 0, 16, 0),
+      iconPadding: EdgeInsetsDirectional.fromSTEB(0, 0, 0, 0),
+      color: FlutterFlowTheme.of(context).primaryText,
+      textStyle: FlutterFlowTheme.of(context).headlineLarge.override(
+            fontFamily: 'Inter Tight',
+            color: Color(0xFF3488C5),
+            letterSpacing: 0.0,
+          ),
+      elevation: 0,
+      borderRadius: BorderRadius.circular(8),
+    ),
+  ),
+)

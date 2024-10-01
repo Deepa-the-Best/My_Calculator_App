@@ -1,0 +1,15 @@
+// Generated code for this Text Widget...
+Align(
+  alignment: AlignmentDirectional(0.93, 1),
+  child: Text(
+    FFAppState().expression,
+    textAlign: TextAlign.end,
+    style: FlutterFlowTheme.of(context).bodyMedium.override(
+          fontFamily: 'Inter',
+          color: Color(0xFF3485C1),
+          fontSize: 66,
+          letterSpacing: 0.0,
+          fontWeight: FontWeight.normal,
+        ),
+  ),
+)
